@@ -2,23 +2,74 @@ body {
 	direction: rtl;
 	position: relative;
 	padding-top: 40px;
+	/*background: #F0E0D3;*/
 }
-section {
-	padding-top: 30px;
+body.en{
+	direction: ltr;
+}
+.en .pull-left{
+	float: left;
+}
+.en .pull-right{
+	float:right;
 }
 
-#shaiCarousel img{
-	height: 100%;
-	width: 100%;
+p{
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 27px;
 }
+section {
+	padding-top: 45px;
+}
+
 .class="page-header"{
 	padding-bottom: 9px;
 	margin: 20px 0 30px;
 	border-bottom: 1px solid #EEE;
 }
+
+#logoBanner{
+	height: 80px;
+	padding: 20px 0;
+	text-align: center;
+
+}
+
+#logoBanner img{
+	width: 500px;
+}
+
+#aboutme .pull-left{
+	width: 60%;
+}
+#aboutme .pull-right{
+	padding: 20px;
+}
+
+#aboutme img{
+	height: 420px;
+}
+
+.icon-envelope {
+	background-position: -72px 0;
+	background-image: url("../img/glyphicons-halflings.png");
+}
+
+.quote-override{
+	border: none;
+	font-style: italic;
+}
+
 .footer{
 	padding: 70px 0;
 	margin-top: 70px;
 	border-top: 1px solid #E5E5E5;
 	background-color: whiteSmoke;
+	text-align: center;
+}
+
+.footer img{
+	width: 180px;
+	padding-bottom: 10px;
 }
