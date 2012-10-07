@@ -63,19 +63,9 @@ blockquote small::before {
 	background-image: url("../img/glyphicons-halflings.png");
 }
 
-.quote-override{
-	border: none;
-	font-style: italic;
-}
-
-
 #logoBanner{
 	margin: 40px auto;
 	text-align: center;
-}
-
-#logoBanner img{
-	/*width: 500px;*/
 }
 
 section#aboutme {
@@ -92,7 +82,7 @@ section#aboutme {
 	padding: 70px 0;
 	margin-top: 70px;
 	border-top: 1px solid #E5E5E5;
-	background-color: whiteSmoke;
+	background-color: #d9d5cf;
 	text-align: center;
 }
 
