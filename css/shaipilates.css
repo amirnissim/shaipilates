@@ -26,6 +26,12 @@ blockquote small::before {
 	content: '';
 }
 
+.navbar{
+	border-bottom: 1px solid #F5EBE0;
+	-webkit-box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.69);;
+	-moz-box-shadow:    0px 1px 5px rgba(255, 255, 255, 0.69);;
+	box-shadow:         0px 1px 5px rgba(255, 255, 255, 0.69);;
+}
 .navbar-inner{
 	background-color: #080a32;
 	background-image: none;
